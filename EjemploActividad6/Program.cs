@@ -30,7 +30,7 @@ namespace EjemploActividad6
                     //que queremos desaplanar
                     Feed feed = JsonConvert.DeserializeObject<Feed>(content);
                     //En este punto feed deberá contener los datos del json
-                    //Para entender las clases que se crearon en la carpeta Models, tienen que abrir la url en un navegador como Firefox o Chrome; y analisar su estructura.
+                    //Para entender las clases que se crearon en la carpeta Models, tienen que abrir la url en un navegador como Firefox o Chrome; y analizar su estructura.
                     
                     //Imprimimos el titulo del feed
                     Console.WriteLine("Titulo: {0}",feed.Title);
