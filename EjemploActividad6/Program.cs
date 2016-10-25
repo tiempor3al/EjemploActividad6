@@ -32,6 +32,9 @@ namespace EjemploActividad6
 
                     //En este punto feed debera contener los datos del json
 
+                    //Imprimimos el titulo del feed
+                    Console.WriteLine("Titulo: {0}",feed.Title);
+
                     //Las imagenes estan en Feed -> Items [] -> Media -> M
                     foreach (var f in feed.Items) {
                         Console.WriteLine("Imagen: {0}",f.Media.M);

@@ -8,7 +8,7 @@ namespace EjemploActividad6.Models
 {
     class Feed
     {
-        public String title { get; set; }
+        public String Title { get; set; }
         public List<Item> Items { get; set; }
     }
 }
